@@ -20,7 +20,7 @@
     //<![CDATA[
     var centreLat=0.0;
     var centreLon=0.0;
-    var initialZoom=2;
+    var initialZoom=3;
     var imageWraps=false; //SET THIS TO false TO PREVENT THE IMAGE WRAPPING AROUND
 
     var map; //the GMap3 itself
@@ -79,7 +79,7 @@
         tile=null;
     }
     GMICMapType.prototype.name = "Algredia!";
-    GMICMapType.prototype.alt = "Image Cutter Tiles";
+    GMICMapType.prototype.alt = "Aidergla!";
     GMICMapType.prototype.setOpacity = function(newOpacity) {
         this.opacity = newOpacity;
         for (var i = 0; i < this.Cache.length; i++) {
@@ -122,7 +122,7 @@
         var myOptions = {
             zoom: initialZoom,
             minZoom: 0,
-            maxZoom: 5,
+            maxZoom: 6,
             center: latlng,
             panControl: true,
             zoomControl: true,
@@ -161,7 +161,3 @@
   </body>
 
 </html>
-
-
-
-
